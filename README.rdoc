@@ -1,28 +1,14 @@
-== README
+Title: RailsDeCal
+Team Members: Soohee Lee, Liza Praprotnik, Emahn Novid
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Idea: An application where users can upload their resumes and companies can view and download them. 
 
-Things you may want to cover:
+Models and Description:
+User
+has name, email, resumes
+Resume
+belongs to a user
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+Features:
+Users can log in
+Users can upload/download files 
